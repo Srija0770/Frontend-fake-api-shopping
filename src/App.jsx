@@ -1,6 +1,6 @@
 import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
-import Home from './pages/Home';
+import Index from './pages/Index';
 import Cart from './pages/Cart';
 import Signup from './pages/Signup';
 import Login from './pages/Login';
@@ -11,7 +11,7 @@ const App = () => {
     <div>
       <Routes>
                 <Route path="/Login" element={<Login/>} />
-        <Route path="/home" element={<Home />} />
+        <Route path="/home" element={<Index />} />
                 <Route path="/" element={<Signup/>} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/admin" element={<Admin />} />
